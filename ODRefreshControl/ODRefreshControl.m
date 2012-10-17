@@ -140,6 +140,7 @@ static inline CGFloat lerp(CGFloat a, CGFloat b, CGFloat p)
 {
     _tintColor = tintColor;
     _shapeLayer.fillColor = [_tintColor CGColor];
+    _activity.color = _tintColor;
 }
 
 - (void)setActivityIndicatorViewStyle:(UIActivityIndicatorViewStyle)activityIndicatorViewStyle
